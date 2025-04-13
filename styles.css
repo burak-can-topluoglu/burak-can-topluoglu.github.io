@@ -1,69 +1,157 @@
-/* Contact Section */
-#contact {
-    padding: 60px 20px;
-    max-width: 1200px;
-    margin: auto;
+/* Genel Ayarlar */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
     color: #e0e0e0;
+    line-height: 1.6;
 }
 
-/* Contact Container: Hold Google Map and Form Side by Side */
+/* Navbar */
+nav {
+    background-color: #1e1e1e;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #64ffda;
+}
+
+/* Bölümler */
+section {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Home Özel */
+.home {
+    text-align: center;
+}
+
+.home img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Başlıklar */
+h1, h2 {
+    color: #64ffda;
+    text-align: center;
+}
+
+/* Projeler Listesi */
+.projects ul {
+    padding: 0;
+}
+
+.projects li {
+    list-style: none;
+    background-color: #1e1e1e;
+    margin: 10px 0;
+    padding: 15px;
+    border-left: 4px solid #64ffda;
+    transition: background 0.3s;
+}
+
+.projects li:hover {
+    background-color: #2c2c2c;
+}
+
+.projects a {
+    color: #64ffda;
+    text-decoration: none;
+}
+
+.projects a:hover {
+    text-decoration: underline;
+}
+
+/* İletişim */
+.contact p, .projects p {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Contact Sayfası için Stil */
 .contact-container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
     justify-content: space-between;
+    margin-top: 30px;
 }
 
 /* Google Map */
-.google-map {
-    flex: 1;
-    min-width: 300px;
-}
-
-/* Contact Form */
-.contact-form {
-    flex: 1;
-    min-width: 300px;
-    background-color: #1e1e1e;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-.contact-form label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-    color: #e0e0e0;
-}
-
-.contact-form input, .contact-form textarea {
+.google-map iframe {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #333;
-    border: none;
-    border-radius: 5px;
-    color: #e0e0e0;
+    height: 450px;
+    border: 0;
 }
 
+/* İletişim Formu */
+.contact-form {
+    width: 48%;
+}
+
+.contact-form input,
+.contact-form textarea,
 .contact-form button {
     width: 100%;
     padding: 10px;
-    background-color: #64ffda;
-    color: #121212;
-    border: none;
-    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #555;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.contact-form textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #444;
+    color: #fff;
     font-weight: bold;
+    border: none;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .contact-form button:hover {
-    background-color: #4db8b8;
+    background-color: #64ffda;
 }
 
-/* Contact Information */
+/* İletişim Bilgileri */
 .contact-info {
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: center;
 }
 
@@ -75,85 +163,7 @@
 .contact-info a:hover {
     text-decoration: underline;
 }
-/* Contact Section */
-#contact {
-    padding: 60px 20px;
-    max-width: 1200px;
-    margin: auto;
-    color: #e0e0e0;
-}
 
-/* Contact Container: Hold Google Map and Form Side by Side */
-.contact-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-between;
-}
-
-/* Google Map */
-.google-map {
-    flex: 1;
-    min-width: 300px;
-}
-
-/* Contact Form */
-.contact-form {
-    flex: 1;
-    min-width: 300px;
-    background-color: #1e1e1e;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-.contact-form label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-    color: #e0e0e0;
-}
-
-.contact-form input, .contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #333;
-    border: none;
-    border-radius: 5px;
-    color: #e0e0e0;
-}
-
-.contact-form button {
-    width: 100%;
-    padding: 10px;
-    background-color: #64ffda;
-    color: #121212;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.contact-form button:hover {
-    background-color: #4db8b8;
-}
-
-/* Contact Information */
-.contact-info {
-    margin-top: 20px;
-    text-align: center;
-}
-
-.contact-info a {
-    color: #64ffda;
-    text-decoration: none;
-}
-
-.contact-info a:hover {
-    text-decoration: underline;
-}
-
-/* Footer */
 footer {
     text-align: center;
     padding: 20px;
