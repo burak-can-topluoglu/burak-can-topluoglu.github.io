@@ -58,8 +58,9 @@ section {
 
 /* Başlıklar */
 h1, h2 {
-    color: #64ffda;
+    color: #a8a8a8; /* Gri-beyaz tonunda renk */
     text-align: center;
+    font-weight: 600; /* Daha kalın */
 }
 
 /* Projeler Listesi */
@@ -89,14 +90,4 @@ h1, h2 {
     text-decoration: underline;
 }
 
-/* İletişim */
-.contact p, .projects p {
-    text-align: center;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    font-size: 0.9em;
-    color: #777;
-}
+/* İ*
