@@ -1,4 +1,4 @@
-
+/* Genel Ayarlar */
 body {
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@ body {
     line-height: 1.6;
 }
 
-
+/* Navbar */
 nav {
     background-color: #1e1e1e;
     padding: 1em;
@@ -37,32 +37,38 @@ nav ul li a:hover {
     color: #64ffda;
 }
 
-
+/* Bölümler */
 section {
     padding: 60px 20px;
     max-width: 800px;
     margin: auto;
 }
 
-
+/* Home Özel */
 .home {
     text-align: center;
+    margin-top: 20px;
 }
 
 .home img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-top: 20px;
+    margin-bottom: 20px;  /* Fotoğraf ile yazı arasındaki boşluk */
 }
 
-
-h1, h2 {
-    color: #a8a8a8;  
-    text-align: center;
+/* Başlıklar */
+h1 {
+    color: #e0e0e0; /* Yazının rengi */
+    font-weight: bold;
 }
 
+p {
+    color: #e0e0e0; /* Yazının rengi */
+    font-weight: normal;
+}
 
+/* Projeler Listesi */
 .projects ul {
     padding: 0;
 }
@@ -89,16 +95,14 @@ h1, h2 {
     text-decoration: underline;
 }
 
-
+/* İletişim */
 .contact p, .projects p {
     text-align: center;
 }
-
 
 footer {
     text-align: center;
     padding: 20px;
     font-size: 0.9em;
     color: #777;
-    margin-top: 40px; 
 }
