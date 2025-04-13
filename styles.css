@@ -90,4 +90,14 @@ h1, h2 {
     text-decoration: underline;
 }
 
-/* İ*
+/* İletişim */
+.contact p, .projects p {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
