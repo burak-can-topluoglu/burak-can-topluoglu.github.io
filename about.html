@@ -39,9 +39,6 @@
             transition: all 0.3s ease;
             position: relative;
             padding: 5px 0;
-            display: flex;
-            align-items: center;
-            gap: 8px;
         }
 
         nav a:hover {
@@ -126,6 +123,18 @@
             text-align: center;
         }
 
+        .double-column {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            width: 100%;
+        }
+
+        .double-column .skills-column {
+            flex: 1;
+            min-width: calc(50% - 20px);
+        }
+
         footer {
             text-align: center;
             padding: 20px;
@@ -151,6 +160,10 @@
                 flex-direction: column;
                 gap: 30px;
             }
+
+            .double-column .skills-column {
+                min-width: 100%;
+            }
         }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -158,10 +171,10 @@
 <body>
     <nav>
         <ul>
-            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
-            <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
-            <li><a href="projects.html"><i class="fas fa-project-diagram"></i> Projects</a></li>
-            <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
 
@@ -203,17 +216,27 @@
                     <li><i class="fas fa-calculator"></i> Statistical analysis</li>
                 </ul>
             </div>
+        </div>
 
-            <div class="skills-column">
-                <h3><i class="fas fa-language"></i> Languages & Certifications</h3>
-                <ul class="skills-list">
-                    <li><i class="fas fa-flag"></i> Turkish (Native)</li>
-                    <li><i class="fas fa-flag"></i> French (Advanced)</li>
-                    <li><i class="fas fa-flag"></i> English (Advanced)</li>
-                    <li><i class="fas fa-certificate"></i> Google Data Analytics</li>
-                    <li><i class="fas fa-certificate"></i> Foreign Trade (METU)</li>
-                    <li><i class="fas fa-certificate"></i> Cybersecurity & Finance (Akbank Academy)</li>
-                </ul>
+        <div class="skills-section">
+            <div class="double-column">
+                <div class="skills-column">
+                    <h3><i class="fas fa-language"></i> Languages</h3>
+                    <ul class="skills-list">
+                        <li><i class="fas fa-flag"></i> Turkish (Native)</li>
+                        <li><i class="fas fa-flag"></i> French (Advanced)</li>
+                        <li><i class="fas fa-flag"></i> English (Advanced)</li>
+                    </ul>
+                </div>
+
+                <div class="skills-column">
+                    <h3><i class="fas fa-certificate"></i> Certifications</h3>
+                    <ul class="skills-list">
+                        <li><i class="fas fa-award"></i> Google Data Analytics</li>
+                        <li><i class="fas fa-award"></i> Foreign Trade (METU)</li>
+                        <li><i class="fas fa-award"></i> Cybersecurity & Finance (Akbank Academy)</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
