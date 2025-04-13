@@ -1,0 +1,102 @@
+/* Genel Ayarlar */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+/* Navbar */
+nav {
+    background-color: #1e1e1e;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #64ffda;
+}
+
+/* Bölümler */
+section {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Home Özel */
+.home {
+    text-align: center;
+}
+
+.home img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Başlıklar */
+h1, h2 {
+    color: #64ffda;
+    text-align: center;
+}
+
+/* Projeler Listesi */
+.projects ul {
+    padding: 0;
+}
+
+.projects li {
+    list-style: none;
+    background-color: #1e1e1e;
+    margin: 10px 0;
+    padding: 15px;
+    border-left: 4px solid #64ffda;
+    transition: background 0.3s;
+}
+
+.projects li:hover {
+    background-color: #2c2c2c;
+}
+
+.projects a {
+    color: #64ffda;
+    text-decoration: none;
+}
+
+.projects a:hover {
+    text-decoration: underline;
+}
+
+/* İletişim */
+.contact p, .projects p {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
