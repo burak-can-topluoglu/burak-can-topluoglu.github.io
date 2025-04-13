@@ -1,36 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Burak Can Topluoğlu - Analyst</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        
+        .container {
+            display: flex;
+            flex: 1;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            gap: 40px;
+        }
+        
+        .image-container {
+            flex: 1;
+            max-width: 50%;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            max-height: 600px; /* Görsel boyutunu artırdık */
+        }
+        
+        .text-content {
+            flex: 1;
+            max-width: 50%;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: auto;
+        }
+        
+        .copyright {
+            margin-bottom: 10px;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            
+            .image-container, .text-content {
+                max-width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
-  <!-- Navbar -->
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-
-  <!-- Ana İçerik -->
-  <section class="home-section">
-    <div class="profile-container">
-      <div class="profile-left">
-        <img src="profile.png" alt="Burak Can Topluoğlu" width="150" height="150" style="border-radius: 50%;" />
-        <h1 class="title-under-img">Analyst - Burak Can Topluoğlu</h1>
-      </div>
-      <div class="profile-right">
-        <p class="intro-text">
-          As an analyst, I combine data exploration with business strategy, seeking clarity in numbers and direction in trends. Whether it's improving business decisions or uncovering hidden patterns, I thrive on meaningful impact and insights.
-        </p>
-      </div>
+    <div class="container">
+        <div class="image-container">
+            <img src="your-image.jpg" alt="Your Image Description">
+        </div>
+        <div class="text-content">
+            <p>As an analyst...</p> <!-- Buraya orijinal metninizi ekleyin -->
+        </div>
     </div>
-  </section
-<footer style="text-align: center; padding: 20px 0; font-size: 0.9em; color: #888; background-color: #121212;">
-  &copy; 2025 Burak Can Topluoğlu. All rights reserved. Unauthorized use or reproduction of this content is strictly prohibited.
-</footer>
+    
+    <footer>
+        <div class="copyright">
+            © 2025 All rights reserved. Unauthorized use or reproduction of this content is strictly prohibited.
+        </div>
+        <div>
+            Burak Can Topluoğlu
+        </div>
+    </footer>
+</body>
+</html>
