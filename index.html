@@ -28,7 +28,7 @@
             list-style: none;
             margin: 0;
             padding: 0;
-            gap: 30px;
+            gap: 40px; /* Sekmeler arası mesafe artırıldı */
         }
 
         nav a {
@@ -66,12 +66,12 @@
             align-items: center;
             justify-content: center;
             padding: 40px 20px;
-            gap: 60px;
+            gap: 40px; /* Görsel ve yazı arası boşluk azaltıldı */
         }
 
         .image-container {
             flex: 1;
-            max-width: 50%;
+            max-width: 45%; /* Görsel boyutu küçültüldü */
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -79,10 +79,10 @@
         }
 
         .image-container img {
-            max-width: 100%;
+            max-width: 85%; /* Görsel boyutu küçültüldü */
             height: auto;
-            max-height: 700px;
-            margin-bottom: 20px;
+            max-height: 600px; /* Görsel boyutu küçültüldü */
+            margin-bottom: 15px;
         }
 
         .image-caption {
@@ -95,13 +95,14 @@
         .text-content {
             flex: 1;
             max-width: 50%;
-            padding: 20px;
+            padding: 15px; /* Padding azaltıldı */
         }
 
         .text-content p {
             font-size: 18px;
             line-height: 1.6;
             color: #ccc;
+            margin-top: 0; /* Üst boşluk kaldırıldı */
         }
 
         footer {
@@ -149,12 +150,13 @@
     <div class="container">
         <div class="image-container">
             <img src="profile.png" alt="Burak Can Topluoğlu">
-            <div class="image-caption">Analyst Burak Can Topluoğlu</div>
+            <div class="image-caption">Your image caption text here</div>
         </div>
         <div class="text-content">
             <p>As an analyst with a passion for data-driven decision making, I specialize in transforming complex datasets into actionable insights. My approach combines technical expertise with business acumen to deliver meaningful results.</p>
         </div>
     </div>
+    
     <footer>
         <div class="copyright">
             © 2025 All rights reserved. Unauthorized use or reproduction of this content is strictly prohibited.
