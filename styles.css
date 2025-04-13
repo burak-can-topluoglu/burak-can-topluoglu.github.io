@@ -10,163 +10,51 @@ body {
 
 /* Navbar */
 nav {
-    background-color: #1e1e1e;
-    padding: 1em;
-    text-align: center;
+    background-color: #121212; /* Siyah zemin */
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 nav ul {
     list-style: none;
-    padding: 0;
+    display: flex;
     margin: 0;
+    padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    margin: 0 25px;
 }
 
 nav ul li a {
     color: #e0e0e0;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 16px;
     transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #64ffda;
+    color: #64ffda; /* Hover efektinde yeşil renk */
 }
 
-/* Bölümler */
+/* İçerik */
 section {
     padding: 60px 20px;
-    max-width: 800px;
-    margin: auto;
+    margin-top: 60px; /* Navbar'dan yer kalması için */
 }
 
-/* Home Özel */
-.home {
-    text-align: center;
-}
-
-.home img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-top: 20px;
-}
-
-/* Başlıklar */
-h1, h2 {
-    color: #64ffda;
-    text-align: center;
-}
-
-/* Projeler Listesi */
-.projects ul {
-    padding: 0;
-}
-
-.projects li {
-    list-style: none;
-    background-color: #1e1e1e;
-    margin: 10px 0;
-    padding: 15px;
-    border-left: 4px solid #64ffda;
-    transition: background 0.3s;
-}
-
-.projects li:hover {
-    background-color: #2c2c2c;
-}
-
-.projects a {
-    color: #64ffda;
-    text-decoration: none;
-}
-
-.projects a:hover {
-    text-decoration: underline;
-}
-
-/* İletişim */
-.contact p, .projects p {
-    text-align: center;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    font-size: 0.9em;
-    color: #777;
-}
-
-/* Contact Sayfası için Stil */
+/* Contact Sayfası */
 .contact-container {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
 }
 
-/* Google Map */
-.google-map iframe {
-    width: 100%;
-    height: 450px;
-    border: 0;
-}
-
-/* İletişim Formu */
 .contact-form {
     width: 48%;
-}
-
-.contact-form input,
-.contact-form textarea,
-.contact-form button {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #555;
-    background-color: #1e1e1e;
-    color: #e0e0e0;
-}
-
-.contact-form textarea {
-    height: 150px;
-    resize: vertical;
-}
-
-.contact-form button {
-    background-color: #444;
-    color: #fff;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.contact-form button:hover {
-    background-color: #64ffda;
-}
-
-/* İletişim Bilgileri */
-.contact-info {
-    margin-top: 30px;
-    text-align: center;
-}
-
-.contact-info a {
-    color: #64ffda;
-    text-decoration: none;
-}
-
-.contact-info a:hover {
-    text-decoration: underline;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    font-size: 0.9em;
-    color: #777;
-}
