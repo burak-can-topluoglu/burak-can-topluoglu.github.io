@@ -1,4 +1,3 @@
-/* Genel Ayarlar */
 body {
     margin: 0;
     padding: 0;
@@ -60,7 +59,7 @@ section {
 h1, h2 {
     color: #a8a8a8; /* Gri-beyaz tonunda renk */
     text-align: center;
-    font-weight: 600; /* Daha kalın */
+    font-weight: 700; /* Daha kalın */
 }
 
 /* Projeler Listesi */
@@ -73,31 +72,4 @@ h1, h2 {
     background-color: #1e1e1e;
     margin: 10px 0;
     padding: 15px;
-    border-left: 4px solid #64ffda;
-    transition: background 0.3s;
-}
-
-.projects li:hover {
-    background-color: #2c2c2c;
-}
-
-.projects a {
-    color: #64ffda;
-    text-decoration: none;
-}
-
-.projects a:hover {
-    text-decoration: underline;
-}
-
-/* İletişim */
-.contact p, .projects p {
-    text-align: center;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    font-size: 0.9em;
-    color: #777;
-}
+    border
