@@ -161,4 +161,62 @@ footer {
 .contact-form button:hover {
     background-color: #52e0c4;
 }
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.contact-form, .contact-info {
+    flex: 1 1 300px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    font-size: 1em;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #64ffda;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #52e0be;
+}
+
+.contact-info p {
+    margin-top: 15px;
+    font-size: 1em;
+    word-break: break-word;
+}
+
+.contact-info a {
+    color: #64ffda;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
 
