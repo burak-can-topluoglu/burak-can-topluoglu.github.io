@@ -1,69 +1,29 @@
-# 👋 Hello, I'm Burak Can Topluoğlu
+# 👋 Hi, I'm Burak Can Topluoğlu
 
-I'm a Data Analyst & Business Analyst with a multilingual background and international experience in data-driven projects. I specialize in turning complex datasets into meaningful insights, developing interactive dashboards, and applying analytical strategies to support informed decision-making.
+I'm a multilingual data enthusiast with hands-on experience in business development, market research, and data analysis — blending people, processes, and platforms into insights that matter.
 
-Currently, I work as an **Export and Business Development Consultant** at Fix Consulting. I also completed a **Data Analyst Internship** at **Groupe TECHNA** in France, where I worked on agricultural market data, pricing trends, and business intelligence tools.
+After completing dual internships in France as a Data Analyst, I’ve worked on projects ranging from CRM data cleaning and dashboard design to market entry analysis in industrial and medical sectors. My tools of choice include Python, SQL, Tableau, Power BI, and Excel.
 
----
-
-## 💼 Experience Highlights
-
-**Fix Consulting** – Export & Business Development Consultant  
-📍 Ankara, Turkey | *Feb 2025 – Present*  
-- Developed data-backed export plans and conducted competitor analysis across sectors (textile, food, automotive, machinery, chemicals).  
-- Focused on market entry strategies, trade intelligence, and digital marketing insights.  
-
-**Groupe TECHNA** – Data Analyst Intern  
-📍 Nantes, France | *Jul – Sept 2023 & Jul – Sept 2022*  
-- Scraped and cleaned large datasets on agriculture and commodity prices (2013–2023) using **Python (BeautifulSoup)**  
-- Performed **trend forecasting**, **SQL-based data modeling**, and **dashboard creation in Tableau**  
-- Automated newsletter archiving and reporting systems for internal use  
-- Conducted **multilingual translations and live interpretation** (French–English–Turkish)  
-- Contributed to **website UX improvements** and **market opportunity analysis** across emerging regions  
+I'm passionate about helping teams make smarter decisions using clean data and actionable insights. My current focus is on Business Analysis roles where I can bring both technical and communication skills into play.
 
 ---
 
-## 🧰 Technical Skills
-
-- **Languages & Tools**: Python, SQL, R, Tableau, Excel, MySQL, Google BigQuery, RStudio, Docker  
-- **Concepts**: Data Cleaning, Web Scraping, Trend Analysis, Dashboards, ETL Processes, Forecasting  
-- **Tools**: Visual Studio Code, PowerPoint, Git, GitHub
-
----
-
-## 🚧 Projects
-
-> 📌 I’m currently preparing projects related to:
-- Longitudinal data scraping (2013–2036)
-- Interactive dashboards for trade statistics
-- Data cleaning & transformation pipelines
-
-Once completed, they will be published here soon. Stay tuned!
+### 🔧 Tech Stack
+- **Languages**: Python, SQL, R  
+- **Tools**: Excel, Tableau, Power BI, Docker  
+- **Platforms**: MySQL, RStudio, BigQuery, Google Sheets
 
 ---
 
-## 📫 Contact
-
-- 📧 **burak.can.topluoglu@outlook.com**  
-- 💼 [LinkedIn](https://www.linkedin.com/in/burak-can-topluoglu/?locale=en_US)  
-- 🏡 Open to **remote**, **hybrid**, or **international** roles in data analysis, research, or strategy
-
----
-
-## 📜 Certifications
-
-- Google Data Analytics – Coursera  
-- Middle East Technical University – Foreign Trade  
-- Akbank Academy – Finance & Cybersecurity 101
-  
----
-
-## 🌐 Languages
-
-- **Turkish** – Native  
-- **English** – Advanced (C1)  
-- **French** – Advanced (C1)  
+### 🌍 Currently
+- Based in Ankara, open to remote roles  
+- Eager to collaborate on data-driven business solutions  
+- Seeking entry-level opportunities in Business or Data Analytics
 
 ---
 
-> I thrive in analytical environments that bridge data with strategy, and I bring a unique edge through my multilingual and cross-functional background. Looking forward to contributing to dynamic, international teams.
+### 📫 Contact
+- Email: burak.can.topluoglu@outlook.com  
+- LinkedIn: [linkedin.com/in/burak-can-topluoglu](https://linkedin.com/in/burak-can-topluoglu)  
+- Portfolio: [burak-can-topluoglu.github.io](https://burak-can-topluoglu.github.io)
+
